@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&family=Sarabun:wght@400;500;600;700&display=swap');
+
+:root{
+    --primary-color : #26a6fe;
+    --secondary-color : #ffd15b;
+    --background-color:#000;
+    --text-color-primary:#fff;
+    --text-color-secondary:#000;
+}
+*{
+    font-family: 'Sarabun';
+    font-weight: 700;
+    box-sizing: border-box;
+    color:var(--text-color-primary);
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.fwt400{
+    font-weight: 400;
+}
+.fwt500{
+    font-weight: 500;
+}
+.fwt600{
+    font-weight: 600;
+}
+.fwt700{
+    font-weight: 700;
+}
+.text-center{
+    text-align:center;
+}
+
+/*App styles starts here*/
+h1{
+    font-size: 2em;
+}
+.main{
+    width:600px;
+    margin: 50px auto;
+}
+p.subhead{
+    font-size: 22px;
+    margin-top:30px;
+}
+.flexApp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+select, input{
+    color: var(--text-color-secondary);
+    width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+select option{
+    color: var(--text-color-secondary);
+}
+input{
+    width:150px;
+}
+#swapBtn{
+    width: 100px;
+    padding: 7px;
+    background: #00f2a6;
+    border: none;
+    color: #000;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.currencyRateVale{
+    color: #00f2a6;
+}
+#currency_two_value{
+    margin: 0;
+    width: 150px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    color: var(--text-color-secondary);
+}
